@@ -1,0 +1,533 @@
+@media screen and (min-width: 320px) and (max-width: 438px) {
+    .container {
+        width: 100%;
+    }
+
+    .body {
+        overflow-x: hidden;
+    }
+
+    .modal {
+        width: calc(100% - 30px);
+    }
+}
+
+@media screen and (min-width: 428px) {
+    .modal {
+        max-width: 392px;
+    }
+
+    .mob-phone {
+        font-size: 36px;
+    }
+
+    .hero {
+        max-width: 320px;
+        font-size: 36px;
+    }
+
+    .mob-social-icon {
+        gap: 56px;
+    }
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dpp) {
+    .main-hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/office-2x.jpg);
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dpp) {
+        .main-hero {
+            padding: 112px 0;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/office-tab-2x.jpg);
+            }
+        }
+    }
+ /*--------------------------------------------------------------------*/  
+  .container {
+      max-width: 768px;
+      padding: 0 16px;
+      margin: 0 auto;
+  }
+
+  .header-nav-item {
+      margin-right: 0;
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      padding-bottom: 24px;
+      padding-top: 24px;
+  }
+
+  .h1 {
+      margin: unset;
+  }
+
+  .hero {
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.07;
+      letter-spacing: 0.02em;
+      margin-bottom: 35px;
+      max-width: 496px;
+  }
+
+  .header {
+      padding: 0;
+      margin: 0;
+  }
+
+  .header-container {
+      padding: 0 16px;
+      margin: 0;
+  }
+
+  .header-nav-li {
+      padding: 0;
+  }
+
+  .logo-link {
+      padding-left: 0;
+      margin-right: 120px;
+  }
+
+  .list {
+      display: flex;
+      flex-direction: column;
+      margin-right: 0;
+      gap: 12px;
+      padding: 0;
+      font-size: 12px;
+      font-style: normal;
+      line-height: 1.16;
+      letter-spacing: 0.03em;
+  }
+
+  .active::after {
+      position: absolute;
+      content: '';
+      left: 0;
+      bottom: -24px;
+      width: 100%;
+      height: 4px;
+      border-radius: 2px;
+      background-color: var(--active-accent-background-color);
+  }
+
+  /*.hamburger-menu {
+      display: none;
+  }*/
+
+  .features-strategy {
+      text-align: left;
+  }
+
+  /*.description {
+      gap: 72px 24px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 auto;
+  }*/
+
+  .features-li {
+      width: calc((100% - 24px) / 2);
+      padding-left: 0;
+  }
+
+  .section-performance-images {
+      gap: 64px 24px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  /*.team-container {
+      width: 584px;
+      justify-content: center;
+  }*/
+
+  .section-performance-img {
+      width: calc((100% - 24px) / 2);
+      max-width: 264px;
+    width: 100%;
+  }
+
+  /*.team-photo-img {
+      width: 100%;
+  }*/
+
+  .section-fifth {
+      padding: 96px 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .fifth-list {
+      gap: 72px 24px;
+      justify-content: center;
+      width: 552px;
+      margin: 0 auto;
+  }
+
+  .fifth-list-item {
+      height: 88px;
+      width: calc((100% - 48px) / 3);
+      max-width: 168px;
+  }
+
+  .form-unique {
+      gap: 72px 24px;
+      width: 584px;
+      justify-content: unset;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 96px 0;
+  }
+
+  .footer-form {
+      display: flex;
+      flex-direction: inline-flex;
+  }
+
+  .footer-box {
+      align-items: unset;
+  }
+
+  .text {
+      align-items: left;
+      font-weight: 400px;
+  }
+
+  .footer-sm {
+      align-items: unset;
+  }
+
+  .footer-input {
+      width: 264px;
+      padding: 0;
+  }
+
+  .footer-btn {
+      margin: 0;
+  }
+
+  .footer-label{
+      width: 264px;
+  }
+
+  .footer-box-form {
+      justify-content: unset;
+  }
+
+  .footer-form {
+      width: 100%;
+      flex-direction: row;
+      justify-content: left;
+      gap: 24px;
+  }
+
+  .backdrop {
+      width: 100%;
+      top: 0;
+  }
+
+  .modal {
+      transform: translate(-50%, -50%) scale(1);
+      width: 408px;
+      top: 50%;
+      left: 50%;
+      padding: 72px 25px 24px 25px;
+  }
+
+  .button-list {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      justify-content: center;
+      gap: 24px;
+  }
+  
+
+  @media screen and (min-width: 1158px) {
+
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dpp) {
+          .main-hero {
+              padding: 188px 0;
+              background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                      rgba(46, 47, 66, 0.7)),
+                  url(../images/office-desk-2x.jpg);
+          }
+      }
+
+      .container {
+          max-width: 1158px;
+          padding: 0 15px;
+          margin: 0 auto;
+      }
+
+      .active::after {
+          position: absolute;
+          content: '';
+          left: 0;
+          bottom: -24px;
+          width: 100%;
+          height: 4px;
+          border-radius: 2px;
+          background-color: var(--active-accent-background-color);
+      }
+
+      .h1 {
+          margin: unset;
+      }
+
+      .header {
+          padding: 0;
+          margin: 0;
+      }
+
+      .header-container {
+          padding: 0 15px;
+          margin: 0;
+      }
+
+      .header-nav-li {
+          padding: 0;
+      }
+
+      .header-nav-item {
+          display: block;
+      }
+
+      .logo-link {
+          margin-right: 76px;
+      }
+
+      .address-item {
+          display: flex;
+          flex-direction: row;
+          margin-right: 0;
+          gap: 40px;
+          padding: 0;
+          font-style: normal;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1.5;
+          letter-spacing: 0.02px;
+      }
+
+      .hero {
+          font-size: 56px;
+          line-height: 1.07;
+          width: 496px;
+          width: 100%;
+          margin-right: auto;
+          margin-left: auto;
+          margin-bottom: 48px;
+          font-weight: 700;
+          letter-spacing: 0.02em;
+          padding: 0;
+      }
+
+      /*.hero-container {
+          padding: 188px 0 188px;
+          margin: 0 auto;
+      }*/
+
+      .svg-box {
+          display: flex;
+          background-color: var(--button-portfolio-background-color);
+          justify-content: center;
+          border-radius: 4px;
+          height: 112px;
+          margin-bottom: 8px;
+      }
+
+      .features-strategy {
+          text-align: left;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 1.2;
+          letter-spacing: 0.02em;
+      }
+
+      .fourth-icon {
+          fill: var(--secondary-color);
+      }
+
+      .features {
+          padding-top: 120px;
+          padding-bottom: 120px;
+      }
+
+      /*.header-list {
+          margin-right: auto;
+          display: flex;
+          gap: 40px;
+      }*/
+
+      .features .container {
+          margin: 0 auto;
+      }
+
+      .list {
+          display: flex;
+          flex-wrap: nowrap;
+          gap: 24px;
+      }
+
+      .features-li {
+          width: calc((100% - 72px) / 4);
+          width: 100%;
+          padding-left: 0;
+      }
+
+      .features-strategy-p {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1.1r;
+          letter-spacing: 0.02em;
+      }
+
+      .section-performance {
+          display: flex;
+          padding-bottom: 120px;
+      }
+
+      .team-ul-img {
+          width: calc((100% - 72px) / 4);
+          height: auto;
+          width: 100%;
+      }
+
+      .section-four {
+          padding-top: 120px;
+          padding-bottom: 120px;
+      }
+
+      .team-ul {
+          display: flex;
+          flex-wrap: nowrap;
+          gap: 24px;
+      }
+
+      .container-team {
+          padding: 32px 0;
+          text-align: center;
+      }
+
+      /*.team-container {
+          width: 100%;
+      }*/
+
+      .fourth-icon-list {
+          padding-left: 0;
+          margin-bottom: 0;
+      }
+
+      .fifth-list {
+          display: flex;
+          flex-wrap: nowrap;
+          gap: 24px;
+          padding-bottom: 120px;
+          width: 100%;
+      }
+
+      .fifth-list-item {
+          height: 88px;
+          width: calc((100% - 120px) / 6);
+      }
+
+      .fifth-link {
+          width: 100%;
+          max-width: 168px;
+      }
+
+      .section-fifth{
+          padding: 0;
+          padding-top: 120px;
+          margin: 0 auto;
+      }
+
+      .form-unique {
+          display: flex;
+          flex-wrap: nowrap;
+          align-items: baseline;
+          gap: unset;
+          padding: 0;
+          justify-content: left;
+          min-width: 1159px;
+      }
+
+      .footer {
+          padding: 117.5px 15px 84px 15px;
+          margin-left: 0 auto;
+      }
+
+      .footer-box {
+          margin-right: 120px;
+      }
+
+      .footer-sm {
+          display: inline-flex;
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .footer-sm {
+          align-items: unset;
+          margin-left: 0 auto;
+      }
+
+      .footer-input {
+          width: 264px;
+          padding: 0;
+      }
+
+      .footer-btn {
+          margin: 0;
+      }
+
+      .footer-label {
+          width: 264px;
+      }
+
+      .footer-box-form {
+          display: block;
+          justify-content: unset;
+          margin-left: 96px;
+      }
+
+      .footer-form {
+          width: 100%;
+          flex-direction: row;
+          justify-content: left;
+          gap: 24px;
+          margin: 0;
+      }
+
+      .backdrop {
+          width: 100%;
+      }
+
+      .modal {
+          transform: translate(-50%, -50%) scale(1);
+          width: 408px;
+          padding: 72px 24px 24px 24px;
+      }
+  }
