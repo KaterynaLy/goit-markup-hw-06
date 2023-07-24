@@ -17,23 +17,25 @@ img {
   display: block;
 }
 
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
 .list {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
+
 .header {
 border-bottom: 1px solid #e7e9fc;
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
+
+/*.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}*/
 
  .current::after {
   content: "";
@@ -51,10 +53,10 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
   color: #404BBF;
 }
 
-.header-container {
+/*.header-container {
   display: flex;
   align-items: center;
-}
+}*/
 
 .container-menu {
   display: flex;
@@ -69,23 +71,23 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
   padding: 24px 0;
 }
 
-.header-nav-item {
+/*.header-nav-item {
   display: flex;
   align-items: center;
   flex-grow: 1px;
   gap: 40px;
-}
+}*/
 
-.address-item {
+/*.address-item {
   display: flex;
   align-items: center;
   flex-grow: 1px;
   gap: 40px;
-}
+}*/
 
-.section-hero {
+/*.section-hero {
   padding: 188px 0;
-}
+}*/
 
 :root {
   --primary-color: #434455;
@@ -421,14 +423,14 @@ padding: 32px 0
   padding-bottom: 24px;
 }
 
-.header-nav-li {
+/*.header-nav-li {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
 
-}
+}*/
 
 .list-div .button-all {
   background-color: var(--accent-background-color);
@@ -527,11 +529,11 @@ padding: 32px 0
 }
 /*------------------homework 4 ---------------*/
 
-.hero-container {
+/*.hero-container {
   display: flex;
   flex-direction: column;
   padding: 0 316px;
-}
+}*/
 
 .section-hero {
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
@@ -543,6 +545,7 @@ margin: 0 auto;
 background-position: center;
 padding: 188px 0px;
 }
+
 .section-hero-h {
   font-size: 56px;
     line-height: 1.07;
@@ -552,6 +555,7 @@ padding: 188px 0px;
     padding-bottom: 48px;
     max-width: 496px;
 }
+
 .features {
   padding: 120px 0;
 }

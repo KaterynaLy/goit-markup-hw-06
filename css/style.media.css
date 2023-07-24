@@ -124,10 +124,17 @@
       border-radius: 2px;
       background-color: var(--active-accent-background-color);
   }
+    .burger-menu {
+    padding-right: 265;
+    top: 24;
+    }
 
-  /*.hamburger-menu {
+  .header-nav-li {
       display: none;
-  }*/
+  } 
+  .address-li {
+      display: none;
+  }
 
   .features-strategy {
       text-align: left;
@@ -343,10 +350,19 @@
           padding: 0;
       }
 
-      /*.hero-container {
+      .hero-container {
           padding: 188px 0 188px;
           margin: 0 auto;
-      }*/
+      }
+          .section-hero-h {
+              font-size: 36px;
+              line-height: 40%
+              color: #ffffff;
+              letter-spacing: 0.02em;
+              text-align: center;
+              padding-bottom: 48px;
+              max-width: 496px;
+          }
 
       .svg-box {
           display: flex;

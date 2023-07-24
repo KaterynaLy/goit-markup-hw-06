@@ -23,11 +23,14 @@
     <div class="container header-container">
         <nav class="header-nav-lu link">
             <a class="logo-link link" href="./index.html">WEB<span class="span-logo">Studio</span></a>
-                <ul class="header-nav-item list">
-                    <li><a href="./index.html" class="header-nav-li link current">Studio</a></li>
-                    <li><a href="./portfolio.html" class="header-nav-li link">Portfolio</a></li>
-                    <li><a href="" class="header-nav-li link">Contacts</a></li>
-                </ul>
+                <div class="burger">
+                    <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+                        <ul class="header-nav-item list">
+                                <li><a href="./index.html" class="header-nav-li link current">Studio</a></li>
+                                <li><a href="./portfolio.html" class="header-nav-li link">Portfolio</a></li>
+                                <li><a href="" class="header-nav-li link">Contacts</a></li>
+                        </ul>    
+                </div>
         </nav>
 
         <address class="address">
@@ -380,7 +383,7 @@
         <div class="modal modal-container">
             <button type="button" class="modal-button" data-modal-close>
                 <svg class="modal-button-svg" width="8" height="8">
-                    <use href="./images/modal.svg#icon-Modal-bg1"></use>
+                    <use href="./images/modal.svg#icon-Modal-bg"></use>
                 </svg>
             </button>
             <p class="modal-title">Leave your contacts and we will call you back</p>
@@ -438,7 +441,7 @@
         <div class="menu-container js-menu-container" id="mobile-menu">
             <button class="menu-toggle js-close-menu ">
                 <svg class="menu-button-svg" width="8" height="8">
-                    <use href="./images/modal.svg#icon-Modal-bg1"></use>
+                    <use href="./images/modal.svg#icon-Modal-bg"></use>
                 </svg>
             </button>
             <ul class="mobile-menu">
